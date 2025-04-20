@@ -15,10 +15,10 @@ const soaps = [
   },
   {
     id: 2,
-    name: "Turmeric Glow Soap",
+    name: "Honey Turmeric Glow Soap",
     description: "Brightening & Healing",
     price: 159,
-    image: "images/turmeric-soap.jpg"
+    image: "honey.jpeg"
   },
   {
     id: 3,
