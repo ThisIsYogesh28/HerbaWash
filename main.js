@@ -11,7 +11,7 @@ const soaps = [
     name: "Neem Herbal Soap",
     description: "Anti-bacterial & Skin Friendly",
     price: 149,
-    image: "pic.jpeg"
+    image: "neem.jpeg"
   },
   {
     id: 2,
