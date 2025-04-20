@@ -32,7 +32,7 @@ const soaps = [
     name: "Readwine Soap",
     description: "Fragrant & Refreshing",
     price: 169,
-    image: "redwine.jpej"
+    image: "redwine.jpeg"
   },
   {
     id: 5,
