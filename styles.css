@@ -24,7 +24,7 @@ body {
 
 header {
   position: static;
-  background-image: url("images/formlogo11.png");
+  background-image: url("formlogo11.png");
   background-size: cover;
   background-position: center;
   aspect-ratio: 24/4;
