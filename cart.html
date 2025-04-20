@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Your Cart - HerbaWash</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>HerbaWash</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="orders.html">Orders</a>
+      <a href="cart.html">Cart</a>
+    </nav>
+  </header>
+
+  <main id="cart-container">
+    <h2>Your Cart</h2>
+    <div id="cart-items">
+      <!-- Items rendered by JS -->
+    </div>
+
+    <div id="cart-summary" style="margin-top: 1em; text-align: right; font-size: 1.2em; font-weight: bold;">
+      Total: ₹<span id="total-price">0</span>
+    </div>
+
+    <div id="checkout-container" style="margin-top: 1.5em; text-align: right;">
+      <button id="checkout-btn">Proceed to Checkout</button>
+    </div>
+  </main>
+
+  <div id="loader" class="spinner" style="display: none;"></div>
+
+  <footer>&copy; 2025 HerbaWash</footer>
+  <script src="js/cart.js"></script>
+</body>
+</html>
