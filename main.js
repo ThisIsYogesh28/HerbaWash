@@ -22,24 +22,24 @@ const soaps = [
   },
   {
     id: 3,
-    name: "Aloe Vera Soap",
+    name: "Potato Soap",
     description: "Soothing & Hydrating",
     price: 139,
-    image: "images/aloe-soap.jpg"
+    image: "potato.jpeg"
   },
   {
     id: 4,
-    name: "Sandalwood Bliss",
+    name: "Readwine Soap",
     description: "Fragrant & Refreshing",
     price: 169,
-    image: "images/sandal-soap.jpg"
+    image: "redwine.jpej"
   },
   {
     id: 5,
     name: "Charcoal Detox Soap",
     description: "Deep cleansing & Detox",
     price: 149,
-    image: "images/charcoal-soap.jpg"
+    image: "charcoal.jpeg"
   }
 ];
 
