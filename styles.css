@@ -24,7 +24,7 @@ body {
 
 header {
   position: static;
-  background-image: url("formlogo11.png");
+  background-image: url("images/formlogo11.png");
   background-size: cover;
   background-position: center;
   aspect-ratio: 24/4;
@@ -285,4 +285,84 @@ main {
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
+}
+/* Responsive layout for mobile screens */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1em;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+  }
+
+  /* ...rest of the responsive code... */
+
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1em;
+    gap: 1em;
+  }
+
+  nav a {
+    display: block;
+    margin: 0.5em 0;
+  }
+
+  main {
+    padding: 1em;
+    font-size: 0.95em;
+  }
+
+  .product-grid {
+    grid-template-columns: 1fr;
+    gap: 1.2em;
+  }
+
+  .product-card {
+    margin-bottom: 1em;
+    padding: 1em;
+  }
+
+  footer {
+    position: relative;
+    height: auto;
+    padding: 0.8em 0;
+    font-size: 0.9em;
+    text-align: center;
+  }
+
+  .faq-item {
+    padding: 1em;
+  }
+
+  .faq-item h3 {
+    font-size: 1em;
+  }
+
+  .faq-answer {
+    font-size: 0.95em;
+  }
+
+  h1, h2 {
+    font-size: 1.5em;
+  }
+
+  .product-card h3 {
+    font-size: 1.1em;
+  }
+
+  .product-card p {
+    font-size: 0.9em;
+  }
+
+  .product-card button {
+    font-size: 0.9em;
+    padding: 0.4em 0.8em;
+  }
 }
