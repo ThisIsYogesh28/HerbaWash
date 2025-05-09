@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
     name: "Orange Soap",
     description: "Soothing & Hydrating",
     price: 139,
-    image: "orange.jpeg"
+    image: "orange.png"
   },
   {
     id: 4,
