@@ -3,35 +3,40 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const products = [
     {
-      id: 1,
-      name: "Neem Herbal Soap",
-      image: "images/neem-soap.jpg",
-      price: 149,
-    },
-    {
-      id: 2,
-      name: "Turmeric Glow Soap",
-      image: "images/turmeric-soap.jpg",
-      price: 159,
-    },
-    {
-      id: 3,
-      name: "Aloe Vera Soap",
-      image: "images/aloe-soap.jpg",
-      price: 139,
-    },
-    {
-      id: 4,
-      name: "Sandalwood Bliss",
-      image: "images/sandal-soap.jpg",
-      price: 169,
-    },
-    {
-      id: 5,
-      name: "Charcoal Detox Soap",
-      image: "images/charcoal-soap.jpg",
-      price: 149,
-    }
+    id: 1,
+    name: "Neem Herbal Soap",
+    description: "Anti-bacterial & Skin Friendly",
+    price: 149,
+    image: "neem.jpeg"
+  },
+  {
+    id: 2,
+    name: "Honey Glow Soap",
+    description: "Brightening & Healing",
+    price: 159,
+    image: "honey.jpeg"
+  },
+  {
+    id: 3,
+    name: "Orange Soap",
+    description: "Soothing & Hydrating",
+    price: 139,
+    image: "potato.jpeg"
+  },
+  {
+    id: 4,
+    name: "Redwine Soap",
+    description: "Fragrant & Refreshing",
+    price: 169,
+    image: "redwine.jpeg"
+  },
+  {
+    id: 5,
+    name: "Charcoal Detox Soap",
+    description: "Deep cleansing & Detox",
+    price: 149,
+    image: "charcoal.jpeg"
+  }
   ];
 
   function getProductDetails(id) {
