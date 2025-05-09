@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
     name: "Orange Soap",
     description: "Bursting with citrus energy, this vibrant Orange Soap is infused with pure orange peel extract and natural essential oils. Orange is rich in Vitamin C, a powerful antioxidant that helps brighten skin, combat free radical damage, and promote collagen production. The mild exfoliating properties of orange peel help remove dead skin cells, unclog pores, and even out skin tone. With each use, your skin feels rejuvenated, soft, and lightly perfumed with a fresh citrus aroma. It’s especially suitable for dull, tired, or uneven skin, making your daily bath an energizing and skin-renewing ritual.",
     price: 139,
-    image: "potato.jpeg"
+    image: "orange.png"
   },
   {
     id: 4,
