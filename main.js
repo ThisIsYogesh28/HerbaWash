@@ -25,7 +25,7 @@ const soaps = [
     name: "Orange Soap",
     description: "Soothing & Hydrating",
     price: 139,
-    image: "potato.jpeg"
+    image: "orange.jpeg"
   },
   {
     id: 4,
