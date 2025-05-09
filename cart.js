@@ -24,7 +24,7 @@ const soaps = [
   },
   {
     id: 4,
-    name: "Readwine Soap",
+    name: "Redwine Soap",
     price: 169,
     image: "redwine.jpeg"
   },
