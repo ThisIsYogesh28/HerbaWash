@@ -11,21 +11,21 @@ document.addEventListener("DOMContentLoaded", () => {
       {
     id: 1,
     name: "Neem Herbal Soap",
-    description: "Anti-bacterial & Skin Friendly",
+    description: "Crafted with the natural power of neem leaves, this herbal soap is a time-tested solution for acne, skin irritation, and bacterial infections. Neem is renowned in Ayurveda for its powerful antibacterial, antifungal, and anti-inflammatory properties. Each bar gently cleanses the skin while restoring its natural moisture balance, making it perfect for those with sensitive or acne-prone skin. Infused with essential oils and herbs, this soap promotes healthy skin regeneration and leaves a fresh, earthy fragrance. Daily use helps control excess oil, prevent breakouts, and soothe irritated skin, making your skin clearer, smoother, and healthier over time.",
     price: 149,
     image: "neem.jpeg"
   },
   {
     id: 2,
     name: "Honey Glow Soap",
-    description: "Crafted with the natural power of neem leaves, this herbal soap is a time-tested solution for acne, skin irritation, and bacterial infections. Neem is renowned in Ayurveda for its powerful antibacterial, antifungal, and anti-inflammatory properties. Each bar gently cleanses the skin while restoring its natural moisture balance, making it perfect for those with sensitive or acne-prone skin. Infused with essential oils and herbs, this soap promotes healthy skin regeneration and leaves a fresh, earthy fragrance. Daily use helps control excess oil, prevent breakouts, and soothe irritated skin, making your skin clearer, smoother, and healthier over time.",
+    description: "Enriched with raw organic honey, this luxurious soap deeply nourishes and moisturizes the skin, giving it a radiant and youthful glow. Honey is a natural humectant, which means it draws moisture into the skin and helps retain it, making it ideal for dry or dehydrated skin types. It also has natural antibacterial and antioxidant properties that help heal scars, reduce pigmentation, and calm inflamed skin. Blended with vitamin-rich oils, this soap enhances skin elasticity, improves texture, and restores natural softness. Gentle enough for daily use, the Honey Glow Soap is your perfect companion for achieving a luminous and silky-smooth complexion",
     price: 159,
     image: "honey.jpeg"
   },
   {
     id: 3,
     name: "Orange Soap",
-    description: "Enriched with raw organic honey, this luxurious soap deeply nourishes and moisturizes the skin, giving it a radiant and youthful glow. Honey is a natural humectant, which means it draws moisture into the skin and helps retain it, making it ideal for dry or dehydrated skin types. It also has natural antibacterial and antioxidant properties that help heal scars, reduce pigmentation, and calm inflamed skin. Blended with vitamin-rich oils, this soap enhances skin elasticity, improves texture, and restores natural softness. Gentle enough for daily use, the Honey Glow Soap is your perfect companion for achieving a luminous and silky-smooth complexion.",
+    description: "Bursting with citrus energy, this vibrant Orange Soap is infused with pure orange peel extract and natural essential oils. Orange is rich in Vitamin C, a powerful antioxidant that helps brighten skin, combat free radical damage, and promote collagen production. The mild exfoliating properties of orange peel help remove dead skin cells, unclog pores, and even out skin tone. With each use, your skin feels rejuvenated, soft, and lightly perfumed with a fresh citrus aroma. It’s especially suitable for dull, tired, or uneven skin, making your daily bath an energizing and skin-renewing ritual.",
     price: 139,
     image: "potato.jpeg"
   },
