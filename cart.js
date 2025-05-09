@@ -3,11 +3,38 @@ let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
 // Dummy products list for matching
 const soaps = [
-  { id: 1, name: "Neem Herbal Soap", price: 149, image: "images/neem-soap.jpg" },
-  { id: 2, name: "Turmeric Glow Soap", price: 159, image: "images/turmeric-soap.jpg" },
-  { id: 3, name: "Aloe Vera Soap", price: 139, image: "images/aloe-soap.jpg" },
-  { id: 4, name: "Sandalwood Bliss", price: 169, image: "images/sandal-soap.jpg" },
-  { id: 5, name: "Charcoal Detox Soap", price: 149, image: "images/charcoal-soap.jpg" }
+ {
+    id: 1,
+    name: "Neem Herbal Soap",
+    price: 149,
+    image: "neem.jpeg"
+  },
+  {
+    id: 2,
+    name: "Honey Glow Soap",
+   
+    price: 159,
+    image: "honey.jpeg"
+  },
+  {
+    id: 3,
+    name: "Orange Soap",
+    price: 139,
+    image: "potato.jpeg"
+  },
+  {
+    id: 4,
+    name: "Readwine Soap",
+    price: 169,
+    image: "redwine.jpeg"
+  },
+  {
+    id: 5,
+    name: "Charcoal Detox Soap",
+   
+    price: 149,
+    image: "charcoal.jpeg"
+  }
 ];
 
 // Render cart items
